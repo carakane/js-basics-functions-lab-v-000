@@ -8,7 +8,7 @@ function distanceFromHqInBlocks(block) {
   }
 }
 
-function calculateVertical(start, end) {
+function distanceTravelledInFeet(start, end) {
   return((start - end)*264)
 }
 
@@ -16,9 +16,9 @@ function distanceFromHqInFeet(block) {
   return(distanceFromHqInBlocks(block) * 264)
 }
 
-function distanceTravelledInFeet() {
-
-}
+// function distanceTravelledInFeet() {
+// 
+// }
 
 function calculatesFarePrice(start, destination){
 
