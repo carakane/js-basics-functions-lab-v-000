@@ -12,8 +12,8 @@ function calculateVertical(start, end) {
   return((start - end)*264)
 }
 
-function distanceFromHqInFeet() {
-  return(distanceFromHqInBlocks() * 264)
+function distanceFromHqInFeet(block) {
+  return(distanceFromHqInBlocks(block) * 264)
 }
 
 function distanceTravelledInFeet() {
